@@ -17,4 +17,10 @@ class TrojkatTest
         assertEquals(trojkat.sprawdz(),"rownoramienny");
     }
 
+    @Test
+    public void test1(){
+        Trojkat trojkat=new Trojkat(10, 3, 5);
+        assertEquals(trojkat.sprawdz(), "nie istnieje");
+    }
+
 }
